@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local training dumps (not part of the submission)
+Question 1/checkpoints/
+Question 1/full_run_artifacts/
+Question 2 - Leaderboard/outputs/*.log
+Question 2 - Leaderboard/outputs/pred_*.txt
+Question 2 - Leaderboard/outputs/exp_*.log
+Question 2 - Leaderboard/outputs/run_v*.json
+Question 2 - Leaderboard/src/__pycache__/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# TeX / packs
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.zip

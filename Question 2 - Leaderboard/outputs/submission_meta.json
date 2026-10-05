@@ -1,0 +1,19 @@
+{
+  "submitted": {
+    "attempt": 4,
+    "P": 32586,
+    "E": 20,
+    "predictions": "outputs/leaderboard_predictions.txt",
+    "train": "src/train_leaderboard.py --seed 0 --d-model 32 --e-layers 2 --epochs 18 --final-refit 2"
+  },
+  "board": {
+    "attempt1_RMSE": 120.47,
+    "attempt1_P": 32330,
+    "attempt1_E": 12,
+    "attempt2_P": 7530,
+    "attempt2_E": 15,
+    "attempt3_RMSE": 114.5948,
+    "attempt3_MAE": 74.5812,
+    "attempt3_sMAPE": 66.82
+  }
+}
